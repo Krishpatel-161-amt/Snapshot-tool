@@ -1,0 +1,10 @@
+
+mkdir logs
+echo "=== System Snapshot ===" > logs/snapshot.log
+date >> logs/snapshot.logsnapshot.log
+whoami >> snapshot.log
+id >> snapshot.log
+uname >> snapshot.log
+pwd >> snapshot.log
+ls -ls >> snapshot.log
+
